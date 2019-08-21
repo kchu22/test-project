@@ -12,6 +12,6 @@ public class HelloServlet extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.getWriter().write("Hello this is from test-project. Something. aaaaaa\n");
 		resp.getWriter().write("Is this working?\n");
-		resp.getWriter().write("testing");
+		resp.getWriter().write("testing asdasdasd");
 	}
 }
